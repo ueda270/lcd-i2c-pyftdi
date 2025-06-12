@@ -1,0 +1,9 @@
+[project]
+name = "lcd-i2c"
+version = "0.1.0"
+description = "A Python script for controlling I2C LCD displays"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pyftdi>=0.56.0",
+]
